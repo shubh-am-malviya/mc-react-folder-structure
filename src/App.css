@@ -8,8 +8,22 @@
 
 .folder-tree-node {
   padding: 0.15rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .folder-node {
   cursor: pointer;
+}
+
+.folder-tree-options-container {
+  margin-left: 2rem;
+}
+
+.folder-tree-option {
+  border: 1px solid black;
+  margin: 0.1rem;
+  padding: 0.2rem;
+  font-size: 0.7rem;
+  border-radius: 10%;
 }
