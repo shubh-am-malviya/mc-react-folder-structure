@@ -21,7 +21,11 @@ const FolderStructure = ({ folderTree }) => {
 	}
 
 	if (!folderTree.isFolder) {
-		return <div className="folder-tree-node">📄 {folderTree.name}</div>;
+		return (
+			<div className="folder-str-container ">
+				<div className="folder-tree-node">📄 {folderTree.name}</div>
+			</div>
+		);
 	}
 };
 
